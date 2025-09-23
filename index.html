@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC da Você Saudável</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="conteudo">
+            <img src="img/logo.svg" alt="Logo Você Saudável">
+            
+            <h1>Calcule seu IMC</h1>
+            <p>Preencha as informações abaixo para calcular</p>
+
+            <form onsubmit="inputIMC(event)">
+                <label for="peso">Digite seu peso</label><br>
+                <input type="text" name="peso" id="peso"><br>
+
+                <label for="altura">Digite sua altura</label><br>
+                <input type="text" name="altura" id="altura"><br>
+            
+                <button>Calcular IMC</button>
+            </form>
+            
+            <p id="resultado"></p>
+
+            <a href="" target="blank" class="link">Precisa de ajuda? Fale conosco</a>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
