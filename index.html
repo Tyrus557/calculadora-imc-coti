@@ -19,10 +19,10 @@
 
             <form onsubmit="inputIMC(event)">
                 <label for="peso">Digite seu peso</label><br>
-                <input type="text" name="peso" id="peso"><br>
+                <input type="number" step="0.001" id="peso" required placeholder="Ex: 68.5"><br>
 
                 <label for="altura">Digite sua altura</label><br>
-                <input type="text" name="altura" id="altura"><br>
+                <input type="number" step="0.01" id="altura" required placeholder="Ex: 1.70"><br>
             
                 <button>Calcular IMC</button>
             </form>
